@@ -86,6 +86,11 @@ def unique_sources(docs) -> list[str]:
     return sources
 
 
+def cited_sources_from_answer(answer: str, candidates: list[str]) -> list[str]:
+    cited = [source for source in candidates if source in answer]
+    return cited or candidates
+
+
 def get_fallback_docs(docs):
     primary_source = docs[0].metadata.get("file_name") or docs[0].metadata.get("source")
     return [
@@ -154,5 +159,5 @@ question:
     answer = response.content
     return {
         "answer": answer,
-        "sources": sources,
+        "sources": cited_sources_from_answer(str(answer), sources),
     }

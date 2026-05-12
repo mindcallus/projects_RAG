@@ -1,0 +1,20 @@
+{"question":"personal_collection 的 Agent 架构是什么？","expected_source":"collection_agent_design.md"}
+{"question":"personal_collection 为什么坚持 local-first？","expected_source":"architecture.md"}
+{"question":"personal_collection 的 collection 边界有什么作用？","expected_source":"personal_collection_readme.md"}
+{"question":"personal_collection 如何避免跨项目资料污染？","expected_source":"collection_agent_design.md"}
+{"question":"personal_collection 面试时可以强调哪些工程点？","expected_source":"architecture.md"}
+{"question":"thought_tracker 的项目背景是什么？","expected_source":"thought_tracker_project_profile.md"}
+{"question":"thought_tracker 已实现哪些核心功能？","expected_source":"thought_tracker_project_profile.md"}
+{"question":"thought_tracker 用了哪些后端技术？","expected_source":"thought_tracker_project_profile.md"}
+{"question":"thought_tracker 的关键词提取与高亮是怎么实现的？","expected_source":"thought_tracker_project_profile.md"}
+{"question":"thought_tracker 的 LLM 重排如何避免失败影响主流程？","expected_source":"thought_tracker_project_profile.md"}
+{"question":"thought_tracker 当前有哪些测试和工程限制？","expected_source":"thought_tracker_project_profile.md"}
+{"question":"脑电语义解析 demo 的任务目标是什么？","expected_source":"eeg_semantic_parsing_project_profile.md"}
+{"question":"脑电语义解析 demo 使用什么数据输入形式？","expected_source":"eeg_semantic_parsing_project_profile.md"}
+{"question":"脑电语义解析 demo 的预处理流程是什么？","expected_source":"eeg_semantic_parsing_project_profile.md"}
+{"question":"脑电语义解析 demo 的模型结构有哪些？","expected_source":"eeg_semantic_parsing_project_profile.md"}
+{"question":"脑电语义解析 demo 如何运行本地轻量链路？","expected_source":"eeg_semantic_parsing_project_profile.md"}
+{"question":"脑电语义解析 demo 当前有哪些限制？","expected_source":"eeg_semantic_parsing_project_profile.md"}
+{"question":"脑电语义解析 demo 在简历里怎么描述更稳妥？","expected_source":"eeg_semantic_parsing_project_profile.md"}
+{"question":"这个 RAG 项目如何帮助面试准备？","expected_source":"resume.md"}
+{"question":"这些项目整体适合如何归纳到简历中？","expected_source":"resume.md"}
